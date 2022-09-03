@@ -1,0 +1,1245 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    transition: all .5s ease;
+}
+
+body{
+    background: #000029;
+    overflow-x: hidden;
+}
+
+/* START NAV BAR SECTION */
+.header{
+    background: #E8E8E8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10rem 0 2rem;
+}
+
+.listed__items .nav-bar{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    list-style: none;
+}
+
+.listed__items .nav-bar li a{
+    font-size: 20px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    color:  #010135;
+    text-decoration: none;
+}
+
+.listed__items .nav-bar li .home{
+    font-weight: 600;
+}
+
+.listed__items .nav-bar li .home:hover{
+    border-bottom: 2.5px solid #010135;
+}
+
+/* END OF NAV BAR SECTION */
+
+/* START MAIN SECTION */
+
+.main .description{
+    background-image: linear-gradient(rgba(0, 0, 41, 0.5), rgba(0, 0, 41, 0.5)), url(/Images/backpic\ 1.png);
+    height: 120vh;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 0 10rem 0 7rem;
+}
+
+.main .description .info{
+    /* height: 45%; */
+    width: 100%;
+    margin-top: 16rem;
+    /* margin-left: 1rem; */
+}
+
+.main .description .info h1{
+    font-size: 96px;
+    font-family: 'open sans', sans-serif;
+    color: #fff;
+    text-shadow: 8px -8px 10px rgba(255, 255, 255, 0.07), -10px 10px 10px rgba(0, 0, 0, 0.35);
+    -webkit-text-stroke-color: #000;
+    -webkit-text-stroke-width: 1.5px;
+}
+
+.main .description .info h4{
+    font-size: 36px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    line-height: 54px;
+    color: #fff;
+}
+
+.main .description .info p{
+    font-size: 20px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.main .description .info a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background: #FF0000;
+    padding: 1rem 3rem;
+    margin-top: 3rem;
+    border-radius: 15px;
+    text-shadow: 8px -8px 10px rgba(255, 255, 255, 0.07), -10px 10px 10px rgba(0, rgb(0, 0, 0, 0.35));
+}
+
+.main .description .info a:hover{
+    padding: 1rem 4rem 1rem 4rem;
+    /* margin-left: 1.2rem; */
+}
+
+.main .description .mission {
+    text-align: center;
+    width: 30%;
+    margin-top: 19rem;
+}
+
+.main .description .mission h5{
+    font-size: 30px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    line-height: 53px;
+    color: #fff;
+}
+
+.main .description .mission p{
+    font-family: 'poppins', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    line-height: 27px;
+    /* text-align: center; */
+}
+
+.main .container{
+    /* padding: 0 15rem 0 17rem; */
+    color: #fff;
+    position: relative;
+}
+
+.main .container .content-description .cover{
+    background-image: url(/Images/Rectangle\ 20.png);
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    top: 22rem;
+}
+
+.main .container .header-title{
+    text-align: center;
+    margin: 2rem 0;
+    padding: 7rem 0 7rem 25rem;
+    width: 70%;
+}
+
+.main .container .header-title h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 64px;
+    opacity: 0.5;
+}
+
+.main .container .header-title p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+}
+
+.main .container .photos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.main .container .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 4rem;
+    position: relative;
+}
+
+.main .container .content .cover{
+    background-image: url(/Images/Rectangle\ 20.png);
+    width: 100%;
+    height: 60vh;
+    position: absolute;
+    top: 12rem;
+}
+
+.main .container .content .covers{
+    display: none;
+}
+
+.main .container .content .content-1 .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    padding: 5rem 0;
+}
+
+.main .container .content .content-1 .title p{
+    margin-left: 2rem;
+    margin-top: 0.2rem;
+    width: 30%;
+}
+
+.main .container .content .content-1 .photo{
+    min-width: 10px;
+    min-height: 10px;
+}
+
+.main .container .content .content-1 .photo img{
+    width: 90%;
+}
+
+.main .container .content .content-2 .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    padding: 5rem 0;
+}
+
+.main .container .content .content-2 .title p{
+    width: 30%;
+    margin-left: 2rem;
+    margin-top: 0.2rem;
+}
+
+.main .container .content .content-2 .photo{
+    min-width: 10px;
+    min-height: 10px;
+    /* margin-top: 2rem; */
+    margin-left: 3rem;
+}
+
+.main .container .content .content-2 .photo img{
+    width: 90%;
+    /* height: 50vh; */
+}
+
+.service-content {
+    margin-top: 5rem;
+    position: relative;
+    z-index: 5;
+}
+
+.service-content .shadow{
+    background-image: url(/Images/Rectangle\ 20.png);
+    width: 100%;
+    height: 143vh;
+    position: absolute;
+    top: 5rem;
+    z-index: 2;
+}
+
+.service-content .block{
+    text-align: center;
+    margin: 5rem 0;
+}
+
+.service-content .block h1{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.service-content .photo{
+    width: 100%;
+    padding-left: 1rem;
+}
+
+.service-content .photo img{
+    width: 99%;
+    margin-top: -2.7rem;
+}
+
+.footer{
+    position: relative;
+}
+
+.footer .flex-background{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer .eclipse{
+    background-image: url(/Images/Ellipse\ 1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 160vh;
+    position: absolute;
+    top: -35rem;
+    z-index: 0;
+}
+
+.footer .eclipse1{
+    background-image: url(/Images/Ellipse\ 3.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 160vh;
+    position: absolute;
+    top: -35rem;
+    right: -40rem;
+    z-index: 0;
+}
+
+.footer .about{
+    /* width: 40%; */
+    font-style: italic;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.footer .about h2{
+    font-weight: 300;
+    font-size: 35px;
+    font-style: italic;
+    line-height: 44px;
+}
+
+.footer .about p{
+    font-weight: 100;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 33px;  
+    width: 30%;
+    margin-top: 4rem;
+    margin-left: 34rem;
+}
+
+.footer .contact{
+    margin-left: 6rem;
+    position: absolute;
+    bottom: -11rem;
+}
+
+.footer .contact ul li{
+    list-style: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.small{
+    position: absolute;
+    right: 15rem;
+    bottom: -13rem;
+    font-size: 20px;
+    line-height: 27px;
+}
+/* END MAIN SECTION */
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 800px) {
+    body{
+        overflow-x: hidden;
+        width: 106.5%;
+    }
+
+    .main .description{
+        /* overflow: hidden; */
+        background-image: linear-gradient(rgba(0, 0, 41, 0.5), rgba(0, 0, 41, 0.5)), url(/Images/backpic.png);
+        background-position: top center;
+        background-repeat: no-repeat;
+        padding: 0 1rem 0 3rem;
+        width: 100%;
+        margin: 0;
+        margin-bottom: -30rem;
+    }
+
+    .main .description .info{
+        width: 100%;
+    }
+
+    .main .description .info h1{
+        width: 100%;
+        font-weight: 700;
+        font-size: 55px;
+        /* line-height: 84px; */
+    }
+
+    .main .description .info h4{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 19px;
+        -webkit-text-stroke-color: #000;
+        -webkit-text-stroke-width: 1px;
+    }
+
+    .main .description .info p{
+        display: none;
+    }
+
+    .main .description .info a{
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 15px;
+        padding: 0.7rem 1.5rem;
+        margin-top: 1rem;
+        position: absolute;
+        border-radius: 5px;
+    }
+
+    .main .description .mission{
+        position: absolute;
+        right: -3rem;
+        top: 15rem;
+        width: 50%;
+    }
+
+    .main .description .mission h5{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+    }
+
+    .main .description .mission p{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 34px;
+    }
+
+    .main .container .header-title{
+        width: 33%;
+        padding: 0;
+        position: absolute;
+        top: -20rem;
+        right: 15rem;
+    }
+
+    .main .container .header-title h2{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 2rem;
+    }
+
+    .main .container .header-title p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+    }
+
+    .main .container .photos img{
+        width: 29%;
+    }
+
+    .main .container .content{
+        position: relative;
+        display: block;
+        padding: 0;
+    }
+
+    .main .container .content .cover{
+        background-image: url(/Images/Rectangle\ 20.png);
+        width: 100%;
+        height: 35vh;
+        position: absolute;
+        top: 12rem;
+    }
+
+    .main .container .content .content-1{
+        margin-left: 4rem;
+    }
+
+    .main .container .content .content-1 .title{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        display: block;
+    }
+
+    .main .container .content .content-1 .title p{
+        margin-left: 12rem;
+        margin-top: 2rem;
+    }
+
+    .main .container .content .content-1 .title img{
+        margin-right: 4rem;
+    }
+
+    .main .container .content .content-1 .photo img{
+        margin-top: -2rem;
+        width: 90%;
+    }
+
+    .main .container .content .cover2{
+        background-image: url(/Images/Rectangle\ 20.png);
+        width: 100%;
+        height: 60vh;
+        position: absolute;
+        top: 55rem;
+    }
+
+    .main .container .content .content-2 .title{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        display: block;
+    }
+
+    .main .container .content .content-2 .title p{
+        margin-left: 14rem;
+        margin-top: 2rem;
+    }
+
+    .main .container .content .content-2 .title img{
+        margin-right: 4rem;
+    }
+
+    .main .container .content .content-2 .photo img{
+        margin-top: -2rem;
+        width: 90%;
+    }
+
+    .service-content .shadow{
+        background-image: url(/Images/Rectangle\ 20.png);
+        width: 100%;
+        height: 64.9vh;
+        position: absolute;
+        top: 8.6rem;
+        z-index: 2;
+    }
+
+    .service-content .photo img{
+        width: 95%;
+        margin-left: 1rem;
+    }
+
+    .footer .flex-background{
+        display: none;
+    }
+
+    .footer .about p{
+        font-weight: 100;
+        font-size: 18px;
+        font-style: italic;
+        line-height: 33px;  
+        width: 50%;
+        margin-top: 2rem;
+        margin-left: 10rem;
+    }
+
+    .footer ul{
+        margin-top: 4rem;
+    }
+
+    .footer .contact ul li{
+        list-style: none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        margin-left: 8rem;
+    }
+
+    .small{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        right: 4rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body{
+        overflow-x: hidden;
+        width: 160%;
+    }
+
+    .header{
+        padding-left: 2rem;
+    }
+
+    .main .description{
+        /* overflow: hidden; */
+        background-image: linear-gradient(rgba(0, 0, 41, 0.5), rgba(0, 0, 41, 0.5)), url(/Images/backpic.png);
+        background-position: top center;
+        background-repeat: no-repeat;
+        padding: 0 0rem 0 3rem;
+        width: 100%;
+        height: 70vh;
+        margin: 0;
+        margin-bottom: 30rem;
+    }
+
+    .main .description .info{
+        width: 100%;
+    }
+
+    .main .description .info h1{
+        width: 100%;
+        font-weight: 700;
+        font-size: 55px;
+        /* line-height: 84px; */
+    }
+
+    .main .description .info h4{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 19px;
+        -webkit-text-stroke-color: #000;
+        -webkit-text-stroke-width: 1px;
+    }
+
+    .main .description .info p{
+        display: none;
+    }
+
+    .main .description .info a{
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 15px;
+        padding: 0.7rem 1.5rem;
+        margin-top: 1rem;
+        position: absolute;
+        border-radius: 5px;
+    }
+
+    .main .description .mission{
+        position: absolute;
+        right: -12rem;
+        top: 15rem;
+        width: 50%;
+    }
+
+    .main .description .mission h5{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+    }
+
+    .main .description .mission p{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 34px;
+    }
+
+    .main .container .header-title{
+        width: 33%;
+        padding: 0;
+        position: absolute;
+        top: -20rem;
+        right: 15rem;
+    }
+
+    .main .container .header-title h2{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 2rem;
+    }
+
+    .main .container .header-title p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+    }
+
+    .main .container .photos img{
+        width: 29%;
+    }
+
+    .main .container .content{
+        position: relative;
+        display: block;
+        padding: 0;
+    }
+
+    .main .container .content .cover{
+        background-image: url(/Images/Rectangle\ 20.png);
+        width: 100%;
+        height: 46vh;
+        position: absolute;
+        top: 12rem;
+    }
+
+    .main .container .content .content-1{
+        margin-left: 4rem;
+    }
+
+    .main .container .content .content-1 .title{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        display: block;
+    }
+
+    .main .container .content .content-1 .title p{
+        margin-left: 12rem;
+        margin-top: 2rem;
+    }
+
+    .main .container .content .content-1 .title img{
+        margin-right: 4rem;
+    }
+
+    .main .container .content .content-1 .photo img{
+        margin-top: -2rem;
+        width: 90%;
+    }
+
+    .main .container .content .cover2{
+        background-image: url(/Images/Rectangle\ 20.png);
+        width: 100%;
+        height: 43vh;
+        position: absolute;
+        top: 54rem;
+    }
+
+    .main .container .content .content-2 .title{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        display: block;
+    }
+
+    .main .container .content .content-2 .title p{
+        margin-left: 14rem;
+        margin-top: 2rem;
+    }
+
+    .main .container .content .content-2 .title img{
+        margin-right: 4rem;
+    }
+
+    .main .container .content .content-2 .photo img{
+        margin-top: -2rem;
+        width: 90%;
+    }
+
+    .service-content{
+        margin-top: 6rem;
+    }
+
+    .service-content .shadow{
+        background-image: url(/Images/Rectangle\ 20.png);
+        width: 100%;
+        height: 50vh;
+        position: absolute;
+        top: 6rem;
+        z-index: 2;
+    }
+
+    .service-content .photo img{
+        width: 95%;
+        margin-left: 1rem;
+    }
+
+    .footer .flex-background{
+        display: none;
+    }
+
+    .footer .about p{
+        font-weight: 100;
+        font-size: 18px;
+        font-style: italic;
+        line-height: 33px;  
+        width: 50%;
+        margin-top: 2rem;
+        margin-left: 10rem;
+    }
+
+    .footer ul{
+        margin-top: 4rem;
+    }
+
+    .footer .contact ul li{
+        list-style: none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        margin-left: 8rem;
+    }
+
+    .small{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        right: 4rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    body{
+        overflow-x: hidden;
+        width: 300%;
+    }
+
+    .header{
+        padding-right: 3rem;
+        padding-left: 0;
+    }
+
+    .listed__items .nav-bar{
+        gap: 1rem;
+    }
+
+    .main .description{
+        /* overflow: hidden; */
+        background-image: linear-gradient(rgba(0, 0, 41, 0.5), rgba(0, 0, 41, 0.5)), url(/Images/backpic.png);
+        background-position: top center;
+        background-repeat: no-repeat;
+        padding: 0 0rem 0 3rem;
+        width: 100%;
+        height: 70vh;
+        margin: 0;
+        margin-bottom: 30rem;
+    }
+
+    .main .description .info{
+        width: 100%;
+    }
+
+    .main .description .info h1{
+        width: 100%;
+        font-weight: 700;
+        font-size: 55px;
+        /* line-height: 84px; */
+    }
+
+    .main .description .info h4{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 19px;
+        -webkit-text-stroke-color: #000;
+        -webkit-text-stroke-width: 1px;
+    }
+
+    .main .description .info p{
+        display: none;
+    }
+
+    .main .description .info a{
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 15px;
+        padding: 0.7rem 1.5rem;
+        margin-top: 1rem;
+        position: absolute;
+        border-radius: 5px;
+    }
+
+    .main .description .mission{
+        position: absolute;
+        right: -12rem;
+        top: 15rem;
+        width: 50%;
+    }
+
+    .main .description .mission h5{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+    }
+
+    .main .description .mission p{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 34px;
+    }
+
+    .main .container .header-title{
+        width: 33%;
+        padding: 0;
+        position: absolute;
+        top: -20rem;
+        right: 15rem;
+    }
+
+    .main .container .header-title h2{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 2rem;
+    }
+
+    .main .container .header-title p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+    }
+
+    .main .container .photos img{
+        width: 29%;
+    }
+
+    .main .container .content{
+        position: relative;
+        display: block;
+        padding: 0;
+    }
+
+    .main .container .content .cover{
+        background-image: url(/Images/Rectangle\ 20.png);
+        width: 100%;
+        height: 46vh;
+        position: absolute;
+        top: 12rem;
+    }
+
+    .main .container .content .content-1{
+        margin-left: 4rem;
+    }
+
+    .main .container .content .content-1 .title{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        display: block;
+    }
+
+    .main .container .content .content-1 .title p{
+        margin-left: 12rem;
+        margin-top: 2rem;
+    }
+
+    .main .container .content .content-1 .title img{
+        margin-right: 4rem;
+    }
+
+    .main .container .content .content-1 .photo img{
+        margin-top: -2rem;
+        width: 90%;
+    }
+
+    .main .container .content .cover2{
+        background-image: url(/Images/Rectangle\ 20.png);
+        width: 100%;
+        height: 43vh;
+        position: absolute;
+        top: 54rem;
+    }
+
+    .main .container .content .content-2 .title{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        display: block;
+    }
+
+    .main .container .content .content-2 .title p{
+        margin-left: 14rem;
+        margin-top: 2rem;
+    }
+
+    .main .container .content .content-2 .title img{
+        margin-right: 4rem;
+    }
+
+    .main .container .content .content-2 .photo img{
+        margin-top: -2rem;
+        width: 90%;
+    }
+
+    .service-content{
+        margin-top: 6rem;
+    }
+
+    .service-content .shadow{
+        background-image: url(/Images/Rectangle\ 20.png);
+        width: 100%;
+        height: 50vh;
+        position: absolute;
+        top: 6rem;
+        z-index: 2;
+    }
+
+    .service-content .photo img{
+        width: 95%;
+        margin-left: 1rem;
+    }
+
+    .footer .flex-background{
+        display: none;
+    }
+
+    .footer .about p{
+        font-weight: 100;
+        font-size: 18px;
+        font-style: italic;
+        line-height: 33px;  
+        width: 50%;
+        margin-top: 2rem;
+        margin-left: 10rem;
+    }
+
+    .footer ul{
+        margin-top: 4rem;
+    }
+
+    .footer .contact ul li{
+        list-style: none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        margin-left: 8rem;
+    }
+
+    .small{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        right: 4rem;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    body{
+        overflow-x: hidden;
+        width: 300%;
+    }
+
+    .main .description{
+        /* overflow: hidden; */
+        background-image: linear-gradient(rgba(0, 0, 41, 0.5), rgba(0, 0, 41, 0.5)), url(/Images/backpic.png);
+        background-position: top center;
+        background-repeat: no-repeat;
+        padding: 0 0rem 0 3rem;
+        width: 100%;
+        height: 150vh;
+        margin: 0;
+        margin-bottom: 30rem;
+    }
+
+    .main .description .info{
+        width: 100%;
+    }
+
+    .main .description .info h1{
+        width: 100%;
+        font-weight: 700;
+        font-size: 55px;
+        /* line-height: 84px; */
+    }
+
+    .main .description .info h4{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 19px;
+        -webkit-text-stroke-color: #000;
+        -webkit-text-stroke-width: 1px;
+    }
+
+    .main .description .info p{
+        display: none;
+    }
+
+    .main .description .info a{
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 15px;
+        padding: 0.7rem 1.5rem;
+        margin-top: 1rem;
+        position: absolute;
+        border-radius: 5px;
+    }
+
+    .main .description .mission{
+        position: absolute;
+        right: -12rem;
+        top: 15rem;
+        width: 50%;
+    }
+
+    .main .description .mission h5{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+    }
+
+    .main .description .mission p{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 34px;
+    }
+
+    .main .container .header-title{
+        width: 33%;
+        padding: 0;
+        position: absolute;
+        top: -20rem;
+        right: 15rem;
+    }
+
+    .main .container .header-title h2{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 2rem;
+    }
+
+    .main .container .header-title p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+    }
+
+    .main .container .photos img{
+        width: 29%;
+    }
+
+    .main .container .content{
+        position: relative;
+        display: block;
+        padding: 0;
+    }
+
+    .main .container .content .cover{
+        background-image: url(/Images/Rectangle\ 20.png);
+        width: 100%;
+        height: 86vh;
+        position: absolute;
+        top: 12rem;
+    }
+
+    .main .container .content .content-1{
+        margin-left: 4rem;
+    }
+
+    .main .container .content .content-1 .title{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        display: block;
+    }
+
+    .main .container .content .content-1 .title p{
+        margin-left: 12rem;
+        margin-top: 2rem;
+    }
+
+    .main .container .content .content-1 .title img{
+        margin-right: 4rem;
+    }
+
+    .main .container .content .content-1 .photo img{
+        margin-top: -2rem;
+        width: 90%;
+    }
+
+    .main .container .content .cover2{
+        background-image: url(/Images/Rectangle\ 20.png);
+        width: 100%;
+        height: 83vh;
+        position: absolute;
+        top: 58rem;
+    }
+
+    .main .container .content .content-2 .title{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        display: block;
+    }
+
+    .main .container .content .content-2 .title p{
+        margin-left: 14rem;
+        margin-top: 2rem;
+    }
+
+    .main .container .content .content-2 .title img{
+        margin-right: 4rem;
+    }
+
+    .main .container .content .content-2 .photo img{
+        margin-top: -2rem;
+        width: 90%;
+    }
+
+    .service-content{
+        margin-top: 6rem;
+    }
+
+    .service-content .shadow{
+        background-image: url(/Images/Rectangle\ 20.png);
+        width: 100%;
+        height: 84vh;
+        position: absolute;
+        top: 6rem;
+        z-index: 2;
+    }
+
+    .service-content .photo img{
+        width: 95%;
+        margin-left: 1rem;
+    }
+
+    .footer .flex-background{
+        display: none;
+    }
+
+    .footer .about p{
+        font-weight: 100;
+        font-size: 18px;
+        font-style: italic;
+        line-height: 33px;  
+        width: 50%;
+        margin-top: 2rem;
+        margin-left: 10rem;
+    }
+
+    .footer ul{
+        margin-top: 4rem;
+    }
+
+    .footer .contact ul li{
+        list-style: none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        margin-left: 8rem;
+    }
+
+    .small{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        right: 4rem;
+    }
+}
